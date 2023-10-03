@@ -1,0 +1,34 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Hột vịt lộn",
+      "description": "Hột vịt lộn sống / luột nước sôi 15 phút",
+      "note": "Note1"
+    },
+    {
+      "id": 2,
+      "title": "Thịt kho hột vịt",
+      "description": "5 quả trứng / 500g thịt ba rọi / 2 muỗng đường / 1 muỗng nước mắm / 1 muỗng hạt nêm / 1 tép hành",
+      "note": "Note2"
+    },
+    {
+      "id": 3,
+      "title": "Trứng chiên",
+      "description": "20ml dầu ăn / 1 muỗng nước mắm / 2 quả trứng",
+      "note": "Note3"
+    },
+    {
+      "id": 4,
+      "title": "Mì gói",
+      "description": "Hảo hảo / 400ml nước sôi",
+      "note": "Note4"
+    },
+    {
+      "id": 5,
+      "title": "Canh chua thơm",
+      "description": "4 trái cà / 100g me / 1 trái thơm",
+      "note": "Note5"
+    }
+  ]
+}
