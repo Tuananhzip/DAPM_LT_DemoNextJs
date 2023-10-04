@@ -17,14 +17,11 @@ const AppHeader = () => {
             <Link href={"/"} className="nav-link">
               Home
             </Link>
-            <Link href={"/about"} className="nav-link">
-              About Us
+            <Link href={"/recipes"} className="nav-link">
+              Recipe
             </Link>
-            <Link href={"/recipe"} className="nav-link">
-              Recipe{" "}
-            </Link>
-            <Link href={"/more"} className="nav-link">
-              More
+            <Link href={`/about`} className="nav-link">
+              About
             </Link>
           </Nav>
         </Navbar.Collapse>

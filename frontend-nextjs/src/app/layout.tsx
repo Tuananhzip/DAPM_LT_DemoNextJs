@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AppHeader from "./Component/app.header";
 import AppFooter from "./Component/app.footer";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 import { Container } from "react-bootstrap";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -24,6 +26,19 @@ export default function RootLayout({
         <AppHeader></AppHeader>
         <Container>{children}</Container>
         <AppFooter></AppFooter>
+
+        <ToastContainer
+          position="top-left"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+        />
       </body>
     </html>
   );
